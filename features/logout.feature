@@ -11,7 +11,9 @@ Background:
   And I enter my password
   And I click the "Siguiente" button  
 
+
 Scenario: Logout
 Given I click the arrow button next to my username 
 When I press "Cerrar Sesión" button        
 Then I should logout form the system 
+

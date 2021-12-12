@@ -1,4 +1,5 @@
 Then('I see the {string} list') do |string|
+    sleep 8
     if string == "Alumnes"
         find(:xpath, '/html/body/div/div/div[4]/div[2]/div/div[2]/div/div[2]/h2/div').text.should == "Lista Alumnes"
     elsif string == "Cursos"

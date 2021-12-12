@@ -10,11 +10,8 @@ Background:
   And I click the "Siguiente" button   
   And I enter my password
   And I click the "Siguiente" button 
-  
-
   And I click the "Verificar Acceso" button 
   And I see the message "Bienvenide"
-  
   And I click the "Cursos" button
   And I click the "Alumnes" tab
   And I see the "Alumnes" list

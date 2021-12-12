@@ -10,8 +10,6 @@ Background:
   And I click the "Siguiente" button   
   And I enter my password
   And I click the "Siguiente" button 
-  
-
   And I click the "Verificar Acceso" button 
   And I see the message "Bienvenide"
 
@@ -21,16 +19,16 @@ Background:
 
 Scenario: Created new Curso
   Given I click the "Cursos" button
-  And I press the "Nuevo Curso" button
+  And I click the "Nuevo Curso" button
   When I enter the data for a new nodo
   |Año:          |2022                    |
   |Periodo:      |1                       |
-  #|Estado:       |Activo                  |
-  #|Curso Para:   |Egresades               |
-  #|Topico:       |Alfabetizacion Digital  |
-  #|Sede-Nodo:    |Technisys - CABA        |
-  #|Horario:      |Tarde(14-16)            |
-  #|Profesor:     |Martin                  |
-  #|Notas:        |No Covid                |
+  |Estado:       |Activo                  |
+  |Curso Para:   |Egresades               |
+  |Topico:       |Alfabetizacion Digital  |
+  |Sede-Nodo:    |Ituzaingó - Ituzaingó       |
+  |Horario:      |Tarde(14-16)            |
+  |Profesor:     |Martin                  |
+  |Notas:        |No Covid                |
   Then I see the "Nuevo Curso" list
   

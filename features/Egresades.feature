@@ -15,5 +15,5 @@ Background:
 
 Scenario: Visualize Egresades          
   Given I click the "Egresades" button
-  When I click the "Alumnes" tab
+
   Then I see the "Lista Egresades" list
