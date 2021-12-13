@@ -15,5 +15,4 @@ Background:
 
 Scenario: Visualize Egresades          
   Given I click the "Egresades" button
-
   Then I see the "Lista Egresades" list

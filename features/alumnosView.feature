@@ -12,12 +12,15 @@ Background:
   And I click the "Siguiente" button 
   And I click the "Verificar Acceso" button 
   And I see the message "Bienvenide"
+  And I click the "Cursos" button
+  And I click the "Alumnes" tab
+  And I see the "Alumnes" list
 
 
-Scenario: Visualize Alumnos          
-  Given I click the "Cursos" button
-  When I click the "Alumnes" tab
-  Then I see the "Alumnes" list
+Scenario: Visualize Alumno          
+
+  Given I click the eye button of the Alumno named "Grupo Cinco"
+  Then I see the information of the Alumno named "Grupo Cinco"
 
 
 
