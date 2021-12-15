@@ -13,7 +13,6 @@ Background:
   And I click the "Verificar Acceso" button 
   And I see the message "Bienvenide"
 
-@deleteTopico
 Scenario: Create Topico          
   Given I click the "Cursos" button
   When I click the "Topicos" tab
